@@ -14,6 +14,8 @@ The code you provided demonstrates these lifetimes using a `LightBulb` class and
 *   **Scoped:** In the Scoped section, `UseScopedLightBulb` is called twice, once for "Bedroom 1" and once for "Bedroom 2". Each call creates a new scope. Within each scope, the same `LightBulb` instance is used (as seen by the same GUID), but different scopes have different instances.
 *   **Singleton:** In the Singleton section, `UseSingletonLightBulb` is called twice. Since the `LightBulb` is registered as a Singleton, the same instance is used for both calls, resulting in the same GUID in the output.
 
+![image](https://github.com/user-attachments/assets/c0437d5b-2165-4bb3-828b-fa366519d8e4)
+
 **Example Output Analysis**
 
 The output you provided confirms the correct behavior of each lifetime:
